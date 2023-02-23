@@ -16,7 +16,7 @@ jobs:
 
     - name: Copy the Readmes
       run: |
-        cd dist
+        cd docs
         cp -r ./* /
         cd ..
-        rm -rf dist
+        rm -rf docs
