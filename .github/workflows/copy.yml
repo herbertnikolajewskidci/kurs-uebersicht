@@ -18,6 +18,7 @@ jobs:
       run: |
         cp -r docs/* ./
         rm -r docs
+        rm -r "00.-vorlagen"
         mv "kurs-übersicht-web-dev.html" "index.html"
         
     - name: Commit files
