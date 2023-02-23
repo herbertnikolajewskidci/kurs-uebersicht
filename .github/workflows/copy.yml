@@ -19,4 +19,4 @@ jobs:
         cd docs
         cp -r ./* ../
         cd ..
-        rm -rf docs
+        rm -r docs
