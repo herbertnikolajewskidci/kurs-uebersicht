@@ -16,9 +16,7 @@ jobs:
 
     - name: Copy the Readmes
       run: |
-        cd docs
-        cp -r ./* ../
-        cd ..
+        cp -r docs/* ./
         rm -r docs
         
     - name: Commit files
